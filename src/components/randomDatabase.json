@@ -1,0 +1,254 @@
+[
+ {
+  "id": 1,
+  "name": "Magnet",
+  "unite": "kgCO2e\/kg",
+  "impact": 26
+ },
+ {
+  "id": 2,
+  "name": "Household vacuum cleaner",
+  "unite": "kgCO2e\/unit",
+  "impact": 20.2
+ },
+ {
+  "id": 3,
+  "name": "Storage bay",
+  "unite": "kgCO2e\/device",
+  "impact": 15.5
+ },
+ {
+  "id": 4,
+  "name": "Ball",
+  "unite": "kgCO2e\/unit",
+  "impact": 0.46
+ },
+ {
+  "id": 5,
+  "name": "Electric balloon water heater 200L",
+  "unite": "kgCO2e\/unit",
+  "impact": 6.79
+ },
+ {
+  "id": 6,
+  "name": "Baled hay",
+  "unite": "kgCO2e\/kg",
+  "impact": 0.196
+ },
+ {
+  "id": 7,
+  "name": "Bamboo shoots",
+  "unite": "kgCO2e\/kg (net weight)",
+  "impact": 1.37
+ },
+ {
+  "id": 8,
+  "name": "Wood pellets",
+  "unite": "kgCO2e\/kWh",
+  "impact": 0.032
+ },
+ {
+  "id": 9,
+  "name": "Kettle",
+  "unite": "kgCO2e\/unit",
+  "impact": 4.02
+ },
+ {
+  "id": 10,
+  "name": "Chair",
+  "unite": "kgCO2e\/unit",
+  "impact": 1.3900000000000001
+ },
+ {
+  "id": 11,
+  "name": "Hemp",
+  "unite": "kgCO2e\/kg",
+  "impact": 0.0998
+ },
+ {
+  "id": 12,
+  "name": "Kid goat",
+  "unite": "kgCO2e\/kg (live weight)",
+  "impact": 6.22
+ },
+ {
+  "id": 13,
+  "name": "Air cooled air conditioner",
+  "unite": "kg of fluid",
+  "impact": 26
+ },
+ {
+  "id": 14,
+  "name": "Petroleum coke",
+  "unite": "kgCO2e\/toe ICV",
+  "impact": 4320
+ },
+ {
+  "id": 15,
+  "name": "Copper",
+  "unite": "kgCO2e\/ton",
+  "impact": 2933
+ },
+ {
+  "id": 16,
+  "name": "Health care waste",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 943
+ },
+ {
+  "id": 17,
+  "name": "Furniture - wooden",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 437
+ },
+ {
+  "id": 18,
+  "name": "Furniture - bedding",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 661
+ },
+ {
+  "id": 19,
+  "name": "Furniture - average",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 531
+ },
+ {
+  "id": 20,
+  "name": "Kitchen waste and green waste",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 9
+ },
+ {
+  "id": 21,
+  "name": "Construction and demolition waste",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 562
+ },
+ {
+  "id": 22,
+  "name": "WEEE",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 451
+ },
+ {
+  "id": 23,
+  "name": "Hazardous industrial waste",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 844
+ },
+ {
+  "id": 24,
+  "name": "Industrial special waste",
+  "unite": "kgCO2e\/ton",
+  "impact": 9603
+ },
+ {
+  "id": 25,
+  "name": "Packaging",
+  "unite": "kgCO2e\/ton of waste",
+  "impact": 102
+ },
+ {
+  "id": 26,
+  "name": "Fertiliser",
+  "unite": "kgCO2e\/ton of K2O",
+  "impact": 451
+ },
+ {
+  "id": 27,
+  "name": "Gasoline",
+  "unite": "kgCO2e\/GJ ICV",
+  "impact": 86.9
+ },
+ {
+  "id": 28,
+  "name": "Domestic fuel oil",
+  "unite": "kgCO2e\/toe ICV",
+  "impact": 676
+ },
+ {
+  "id": 29,
+  "name": "Heavy fuel oil",
+  "unite": "kg \/ m³",
+  "impact": 900
+ },
+ {
+  "id": 30,
+  "name": "Thick forest",
+  "unite": "kgCO2e\/ha.year",
+  "impact": -4120
+ },
+ {
+  "id": 31,
+  "name": "Oven",
+  "unite": "kgCO2e\/unit",
+  "impact": 8.19
+ },
+ {
+  "id": 32,
+  "name": "Natural gas",
+  "unite": "kgCO2e\/toe ICV",
+  "impact": 2768
+ },
+ {
+  "id": 33,
+  "name": "Diesel oil",
+  "unite": "kg \/ m³",
+  "impact": 845
+ },
+ {
+  "id": 34,
+  "name": "Safety barrier",
+  "unite": "kgCO2e\/m of road",
+  "impact": 87.5
+ },
+ {
+  "id": 35,
+  "name": "CNG, Compressed Natural Gas for road vehicle",
+  "unite": "kgCO2e\/tep IVC",
+  "impact": 2677
+ },
+ {
+  "id": 36,
+  "name": "Golf, ball",
+  "unite": "kgCO2e\/m",
+  "impact": 0.3
+ },
+ {
+  "id": 37,
+  "name": "Apartment building",
+  "unite": "kgCO2e\/m²  net floor area",
+  "impact": 525
+ },
+ {
+  "id": 38,
+  "name": "Indivuals houses",
+  "unite": "kgCO2e\/m²  net floor area",
+  "impact": 425
+ },
+ {
+  "id": 39,
+  "name": "Mattress",
+  "unite": "kgCO2e\/unit",
+  "impact": 8.58
+ },
+ {
+  "id": 40,
+  "name": "Plastic",
+  "unite": "kgCO2e\/ton",
+  "impact": 2383
+ },
+ {
+  "id": 41,
+  "name": "Electric heater",
+  "unite": "kgCO2e\/unit",
+  "impact": 94.2
+ },
+ {
+  "id": 42,
+  "name": "Table",
+  "unite": "kgCO2e\/unit",
+  "impact": 9.39
+ }
+]

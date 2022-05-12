@@ -1,0 +1,13 @@
+.give-smth-btn{
+    position:absolute;
+    bottom: 90px;
+    right: 200px;
+    height: 70px;
+    width: 120px;
+    font-weight: 700;
+}
+
+.give-smth-btn:hover{
+    background: greenyellow;
+    cursor: pointer;
+}

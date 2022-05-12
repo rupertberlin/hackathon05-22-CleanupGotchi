@@ -1,0 +1,116 @@
+[
+ {
+  "id": 1,
+  "name": "1 web purchase",
+  "unite": "kgCO2e\/unit",
+  "impact": 0.00755
+ },
+ {
+  "id": 2,
+  "name": "1 email",
+  "unite": "kgCO2e\/unit",
+  "impact": 0.004
+ },
+ {
+  "id": 3,
+  "name": "1 email with attached document",
+  "unite": "kgCO2e\/unit",
+  "impact": 0.035
+ },
+ {
+  "id": 4,
+  "name": "1 web navigation",
+  "unite": "kgCO2e\/unit",
+  "impact": 0.00101
+ },
+ {
+  "id": 5,
+  "name": "1 web request",
+  "unite": "kgCO2e\/unit",
+  "impact": 0.00665
+ },
+ {
+  "id": 6,
+  "name": "1 classic software operation",
+  "unite": "kgCO2e\/unit",
+  "impact": 0.00135
+ },
+ {
+  "id": 7,
+  "name": "1 tweet",
+  "unite": "kgCO2e\/unit",
+  "impact": 2E-05
+ },
+ {
+  "id": 8,
+  "name": "Printed circuit board",
+  "unite": "kgCO2e\/m²",
+  "impact": 433
+ },
+ {
+  "id": 9,
+  "name": "Camera",
+  "unite": "kgCO2e\/unit",
+  "impact": 22.9
+ },
+ {
+  "id": 10,
+  "name": "Cardboard",
+  "unite": "kgCO2e\/ton",
+  "impact": 50.8
+ },
+ {
+  "id": 11,
+  "name": "Video console",
+  "unite": "kgCO2e\/unit",
+  "impact": 2.54
+ },
+ {
+  "id": 12,
+  "name": "Screen",
+  "unite": "kgCO2e\/unit",
+  "impact": 2.17
+ },
+ {
+  "id": 13,
+  "name": "Printer",
+  "unite": "kgCO2e\/unit",
+  "impact": 6.44
+ },
+ {
+  "id": 14,
+  "name": "Connected watch",
+  "unite": "kgCO2e\/unit",
+  "impact": 9.72
+ },
+ {
+  "id": 15,
+  "name": "Computer",
+  "unite": "kgCO2e\/unit",
+  "impact": 156
+ },
+ {
+  "id": 16,
+  "name": "Laptop",
+  "unite": "kgCO2e\/device",
+  "impact": 202
+ },
+ {
+  "id": 17,
+  "name": "Steam coming from a network",
+  "unite": "kgCO2e\/kWh",
+  "impact": 0.141
+ },
+ {
+  "id": 18,
+  "name": "Digital music players",
+  "unite": "kgCO2e\/unit",
+  "impact": 1.98
+ },
+ {
+  "id": 19,
+  "name": "Smartphone",
+  "unite": "kgCO2e\/unit",
+  "impact": 39.1
+ }
+]
