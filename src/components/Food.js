@@ -1,19 +1,22 @@
 import React from "react";
 
-import FoodData from "./FoodDatabase.json";
+import FoodData from "./Food.json";
 
-const Food =() => {
+const Food = () => {
   return (
-  <div>
-{FoodData.map(snackData => {
-  return (
-    <div key={snackData.id}>
-      {snackData.title}
+    <div>
+      {FoodData.map((snackData) => {
+        return (
+          <div key={snackData.id}>
+            <strong>This food :</strong>
+            {snackData.Name} <strong>use </strong>
+            {snackData.Impact} <strong>CO2 </strong>
+            <button>Select this food</button>
+          </div>
+        );
+      })}
     </div>
-  )
-})}
-  </div>
-  )
-}
+  );
+};
 
-export default Food; 
+export default Food;
