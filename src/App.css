@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+body {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.game-container{
+  border: solid 1px;
+  width: 700px;
+  height: 510px;
+  margin:auto;
+  margin-bottom:80px;
+  padding: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
