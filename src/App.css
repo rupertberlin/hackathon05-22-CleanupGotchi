@@ -37,8 +37,37 @@
   }
 }
 
-.accordion {
+header {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 7vh;
+}
+#allBelowHeaderContainer {
   display: flex;
-  flex-direction: row;
-  margin: 40px;
+  /* justify-content: space-between; */
+}
+
+.accordion {
+  width: 15vw;
+  border-width: 2px, 2px, 2px, 2px;
+  border-color: #282c34;
+}
+#containerForCentralDivs {
+  display: flex;
+  justify-content: space-around;
+  border-width: 2px;
+  border-color: #282c34;
+}
+#containerForColumnWithHappinessProgress {
+  width: 15vw;
+  border-width: 2px;
+}
+#containerForColumnWithPicture {
+  width: 55vw;
+  border-width: 2px;
+}
+#containerForColumnWithTotalEmissions {
+  width: 15vw;
+  border-width: 2px;
 }
