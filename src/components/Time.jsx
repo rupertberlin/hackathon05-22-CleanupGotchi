@@ -1,20 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 export default function Time() {
-  const [time, setTime] = useState("null");
-  const timing = new Date();
-  const getDate =
-    timing.getDate() +
-    "/" +
-    (timing.getMonth() + 1) +
-    "/" +
-    timing.getFullYear();
-  const getTime =
-    timing.getHours() + ":" + timing.getMinutes() + ":" + timing.getSeconds();
-
-  const [now, setNow] = useState(null);
-  console.log(getDate);
-  console.log(getTime);
+  
+  const [ now, setNow ] = useState(null);
 
   useEffect(() => {
     clock.start();
@@ -91,10 +79,10 @@ export default function Time() {
   //   console.log(clock.start());
   return (
     <div>
-      <h1>{time}</h1>
+ 
       {/* <h2>{getDate}</h2> */}
-      <h2></h2>
-      <h1>{now}</h1>
+      
+      <p>{now}</p>
     </div>
   );
 }

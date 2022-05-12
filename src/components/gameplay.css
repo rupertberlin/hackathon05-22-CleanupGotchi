@@ -11,3 +11,16 @@
     background: greenyellow;
     cursor: pointer;
 }
+
+.time-container {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+}
+
+.time-container p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+    padding-inline: 9px;
+}
