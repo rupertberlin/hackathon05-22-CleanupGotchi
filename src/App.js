@@ -17,11 +17,12 @@ import { flexbox } from "@mui/system";
 const App = () => {
   const [characterName, setCharacterName] = useState("");
   const [allConsumption, setAllConsumption] = React.useState({
-    // In this object, all choices we make will be stored  (incl. the corresponding happiness values / emissions)
-    // Each value should have the form of [ITEM NAME, HAPPINESS POINTS, DAILY EMISSIONS]
-    breakfast: [],
-    lunch: [],
-    dinner: [],
+    food: [],
+    clothes: [],
+    transport: [],
+    it: [],
+    // In this object, all consumption choices will be stored  (incl. the corresponding happiness values / emissions)
+    // Each value should have the form of [ITEM NAME, HAPPINESS POINTS, DAILY EMISSIONS, PRICE]
   });
 
   return (

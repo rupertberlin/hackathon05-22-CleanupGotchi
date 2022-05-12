@@ -2,7 +2,9 @@ import React from "react";
 
 import FoodData from "./Food.json";
 
-const Food = ({ allConsumption, setAllConsumption }) => {
+// IMPORT allConsumption, setAllConsumption
+
+const Food = () => {
   return (
     <div>
       {FoodData.map((snackData) => {

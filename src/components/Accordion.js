@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Food from "./Food";
 import Clothes from "./Clothes";
 import IT from "./IT";
-import Moves from "./Transport"
+import Moves from "./Transport";
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -18,21 +18,39 @@ export default function ControlledAccordions() {
 
   return (
     <div>
-      <Accordion expanded={expanded === "panel1"} onChange={handleChange("panel1")}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1bh-content" id="panel1bh-header">
+      <Accordion
+        expanded={expanded === "panel1"}
+        onChange={handleChange("panel1")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1bh-content"
+          id="panel1bh-header"
+        >
           <Typography sx={{ width: "33%", flexShrink: 0 }}>Food</Typography>
-          <Typography sx={{ color: "text.secondary" }}>What should I eat today?</Typography>
+          <Typography sx={{ color: "text.secondary" }}>
+            What should I eat today?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography> 
+          <Typography>
             <Food />
-            </Typography>
+          </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === "panel2"} onChange={handleChange("panel2")}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2bh-content" id="panel2bh-header">
+      <Accordion
+        expanded={expanded === "panel2"}
+        onChange={handleChange("panel2")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
+        >
           <Typography sx={{ width: "33%", flexShrink: 0 }}>Clothes</Typography>
-          <Typography sx={{ color: "text.secondary" }}>What should I wear today?</Typography>
+          <Typography sx={{ color: "text.secondary" }}>
+            What should I wear today?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -40,26 +58,46 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === "panel3"} onChange={handleChange("panel3")}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel3bh-content" id="panel3bh-header">
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>Transport</Typography>
-          <Typography sx={{ color: "text.secondary" }}>How could I move?</Typography>
+      <Accordion
+        expanded={expanded === "panel3"}
+        onChange={handleChange("panel3")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel3bh-content"
+          id="panel3bh-header"
+        >
+          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+            Transport
+          </Typography>
+          <Typography sx={{ color: "text.secondary" }}>
+            How could I move?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <Moves />
-            </Typography>
+          </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === "panel4"} onChange={handleChange("panel4")}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4bh-content" id="panel4bh-header">
+      <Accordion
+        expanded={expanded === "panel4"}
+        onChange={handleChange("panel4")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel4bh-content"
+          id="panel4bh-header"
+        >
           <Typography sx={{ width: "33%", flexShrink: 0 }}>IT stuff</Typography>
-          <Typography sx={{ color: "text.secondary" }}>What can I do?</Typography>
+          <Typography sx={{ color: "text.secondary" }}>
+            What can I do?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <IT />
-            </Typography>
+          </Typography>
         </AccordionDetails>
       </Accordion>
     </div>
