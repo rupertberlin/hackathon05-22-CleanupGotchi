@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+body {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.game-container {
+  position: relative;
+  border: solid 1px;
+  width: 700px;
+  height: 510px;
+  margin: auto;
+  margin-bottom: 80px;
+  padding: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -64,7 +79,7 @@ header {
   border-width: 2px;
 }
 #containerForColumnWithPicture {
-  width: 55vw;
+  width: 100vw;
   border-width: 2px;
 }
 #containerForColumnWithTotalEmissions {

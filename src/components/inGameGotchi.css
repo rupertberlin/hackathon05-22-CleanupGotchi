@@ -1,0 +1,9 @@
+.in-game-gotchi-container{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+
+.in-game-gotchi-img {
+  height: 140px;
+}
