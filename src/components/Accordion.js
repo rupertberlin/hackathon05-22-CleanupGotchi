@@ -53,7 +53,8 @@ export default function ControlledAccordions() {
       </Accordion>
       <Accordion expanded={expanded === "panel4"} onChange={handleChange("panel4")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4bh-content" id="panel4bh-header">
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>What can I do?</Typography>
+          <Typography sx={{ width: "33%", flexShrink: 0 }}>IT stuff</Typography>
+          <Typography sx={{ color: "text.secondary" }}>What can I do?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

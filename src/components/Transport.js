@@ -6,7 +6,6 @@ const Moves = () => {
   return (
     <div>
       {TransportData.map((move) => {
-      console.log(move)
         return (
           <div key={move.id}>
             <strong>This move :</strong>

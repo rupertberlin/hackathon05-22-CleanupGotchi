@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import ChooseGotchi from "./components/ChooseGotchi";
-
 import ControlledAccordions from "./components/Accordion";
 
 import "./App.css";
@@ -17,6 +16,8 @@ const App = () => {
           <Route
             path="/choose-gotchi"
             element={<ChooseGotchi setCharacter={setCharacterName} />}
+          />
+          <Route path="/care" element={<ControlledAccordions />}
           />
         </Routes>
       </Router>
