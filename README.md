@@ -4,7 +4,7 @@ Every Human has needs he wants to satisfy, but all you do has an effect to natur
 An Enviroment -taking care of the planet- teahing game.
 
 
-# Wildcode School Hackathon 2022
+# Wildcode School Hackathon May 2022
 Topic: Save the planet
 
 # DEV infos
