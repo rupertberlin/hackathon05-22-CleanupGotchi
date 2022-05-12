@@ -4,6 +4,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Food from "./Food";
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -20,7 +21,7 @@ export default function ControlledAccordions() {
           <Typography sx={{ color: "text.secondary" }}>What should I eat today?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget maximus est, id dignissim quam.</Typography>
+          <Typography> <Food /></Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === "panel2"} onChange={handleChange("panel2")}>

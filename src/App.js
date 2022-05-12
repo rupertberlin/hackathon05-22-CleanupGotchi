@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import ChooseGotchi from "./components/ChooseGotchi";
 
 import ControlledAccordions from "./components/Accordion";
-import Food from "./components/Food";
+
 import "./App.css";
 
 const App = () => {
