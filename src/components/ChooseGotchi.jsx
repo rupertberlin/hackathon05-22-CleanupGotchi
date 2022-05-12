@@ -21,6 +21,7 @@ export default function ChooseGotchi(props) {
 
   return (
     <div className="choose-gotchi-container">
+      <h3>choose your Gotchi...</h3>
       <div className="container-gotchi-list">
         {gotchiNames.map((name) => {
           return (

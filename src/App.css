@@ -13,6 +13,7 @@ body {
 }
 
 .game-container{
+  position: relative;
   border: solid 1px;
   width: 700px;
   height: 510px;
