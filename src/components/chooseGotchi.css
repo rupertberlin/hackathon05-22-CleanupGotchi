@@ -1,0 +1,55 @@
+.gotchi {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 122px;
+  border-radius: 500px;
+}
+
+.choose-gotchi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-gotchi-list {
+  display: flex;
+  margin: auto;
+}
+
+.img-choose-gotchi {
+  height: 120px;
+}
+
+.gotchi-active {
+  background: orangered;
+  color: yellowgreen;
+  font-weight: 900;
+}
+
+.gotchi:hover {
+  background-color: greenyellow;
+  cursor:pointer;
+}
+
+.choose-gotchi-btn {
+  margin: auto;
+  width: 120px;
+  height: 40px;
+  margin-top: 50px;
+  background: greenyellow;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 9px;
+}
+
+.choose-gotchi-btn:hover {
+    background: yellow;
+    font-weight: 900;
+    font-size: 1.3rem;
+    cursor:pointer;
+}
+
+.p-w100{
+    width: 100%;
+}
