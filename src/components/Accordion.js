@@ -5,6 +5,9 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Food from "./Food";
+import Clothes from "./Clothes";
+import IT from "./IT";
+import Moves from "./Transport"
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -21,33 +24,41 @@ export default function ControlledAccordions() {
           <Typography sx={{ color: "text.secondary" }}>What should I eat today?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography> <Food /></Typography>
+          <Typography> 
+            <Food />
+            </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === "panel2"} onChange={handleChange("panel2")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2bh-content" id="panel2bh-header">
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>Users</Typography>
-          <Typography sx={{ color: "text.secondary" }}>You are currently not an owner</Typography>
+          <Typography sx={{ width: "33%", flexShrink: 0 }}>Clothes</Typography>
+          <Typography sx={{ color: "text.secondary" }}>What should I wear today?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar diam eros in elit. Pellentesque convallis laoreet laoreet.</Typography>
+          <Typography>
+            <Clothes />
+          </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === "panel3"} onChange={handleChange("panel3")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel3bh-content" id="panel3bh-header">
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>Advanced settings</Typography>
-          <Typography sx={{ color: "text.secondary" }}>Filtering has been entirely disabled for whole web server</Typography>
+          <Typography sx={{ width: "33%", flexShrink: 0 }}>Transport</Typography>
+          <Typography sx={{ color: "text.secondary" }}>How could I move?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros, vitae egestas augue. Duis vel est augue.</Typography>
+          <Typography>
+            <Moves />
+            </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === "panel4"} onChange={handleChange("panel4")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4bh-content" id="panel4bh-header">
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>Personal data</Typography>
+          <Typography sx={{ width: "33%", flexShrink: 0 }}>What can I do?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros, vitae egestas augue. Duis vel est augue.</Typography>
+          <Typography>
+            <IT />
+            </Typography>
         </AccordionDetails>
       </Accordion>
     </div>
