@@ -8,6 +8,8 @@ An Enviroment -taking care of the planet- teahing game.
 Topic: Save the planet
 
 # DEV infos
+run / npm install
+
 START Frontent server:
 /frontend/ npm start
 
