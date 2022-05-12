@@ -1,14 +1,14 @@
-import './App.css';
-import Food from './components/Food';
+import ControlledAccordions from "./components/Accordion";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header>
-        <Food />
-      </header>
+    <div className="accordion">
+      <ControlledAccordions />
+
+      <ControlledAccordions />
     </div>
   );
-}
+};
 
 export default App;
