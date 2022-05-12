@@ -2,7 +2,7 @@ import React from "react";
 
 import FoodData from "./FoodDatabase.json";
 
-export default function Food() {
+const Food =() => {
   return (
   <div>
 {FoodData.map(snackData => {
@@ -15,3 +15,5 @@ export default function Food() {
   </div>
   )
 }
+
+export default Food; 
