@@ -1,6 +1,6 @@
 import React from "react";
 
-import ITData from "./ITDatabase.json";
+import ITData from "../databases/ITDatabase.json";
 
 const IT = () => {
   return (

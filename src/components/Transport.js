@@ -1,6 +1,6 @@
 import React from "react";
 
-import TransportData from "./TransportDatabase.json";
+import TransportData from "../databases/TransportDatabase.json";
 
 const Moves = () => {
   return (

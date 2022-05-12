@@ -1,6 +1,6 @@
 import React from "react";
 
-import ClothesData from "./ClothesDatabase.json";
+import ClothesData from "../databases/ClothesDatabase.json";
 
 const Clothes = () => {
   return (
