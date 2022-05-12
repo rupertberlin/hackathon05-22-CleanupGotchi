@@ -11,3 +11,6 @@ Topic: Save the planet
 START Frontent server:
 /frontend/ npm start
 
+# Team Members
+
+Pierre, Moses, Phuoc, Tom, Uli
