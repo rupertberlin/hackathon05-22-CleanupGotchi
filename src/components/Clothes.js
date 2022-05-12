@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import ClothesData from "./ClothesDatabase.json";
 
 const Clothes = () => {
+  let navigate = useNavigate();
   return (
     <div>
       {ClothesData.map((clothes) => {
@@ -20,6 +22,7 @@ const Clothes = () => {
                     clothes: [clothes.name, 5, clothes.impact, -30],
                   })
                 );
+                navigate("/");
               }}
             >
               Select this clothe

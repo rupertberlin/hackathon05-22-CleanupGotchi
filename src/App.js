@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import background1 from "./images/pexels-tom-fisk-2739664.jpg";
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,7 +28,7 @@ const App = () => {
 
   return (
     <div>
-      <header>Get green, Gotchi!</header>
+      <header>Get green, Gotchi! </header>
       <div></div>
       <div id="allBelowHeaderContainer">
         {/* <div className="accordion">
@@ -65,6 +66,7 @@ const App = () => {
           </div> */}
         </div>
       </div>
+      <img id="backgroundImage" src={background1} alt="Green Rainforest"></img>
     </div>
   );
 };
