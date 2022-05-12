@@ -1,0 +1,26 @@
+{
+  "name": "hackothon05-22-cleanupgotchi",
+  "version": "1.0.0",
+  "description": "A Gotchi Game to fit the needs of a Human with effects to an Pollution Radar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupertberlin/hackothon05-22-CleanupGotchi.git"
+  },
+  "author": "Wild Code School Group Gotchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupertberlin/hackothon05-22-CleanupGotchi/issues"
+  },
+  "homepage": "https://github.com/rupertberlin/hackothon05-22-CleanupGotchi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "create-react": "^0.0.0",
+    "react": "^18.1.0"
+  }
+}
