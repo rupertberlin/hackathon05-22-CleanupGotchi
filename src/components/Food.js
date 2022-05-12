@@ -1,6 +1,6 @@
 import React from "react";
 
-import FoodData from "./Food.json";
+import FoodData from "../databases/Food.json";
 
 // IMPORT allConsumption, setAllConsumption
 
