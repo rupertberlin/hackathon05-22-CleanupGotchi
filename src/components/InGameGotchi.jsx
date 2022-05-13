@@ -10,9 +10,9 @@ export default function InGameGotchi({
   return (
     <div className="in-game-gotchi-container">
       <div className="gotchi-values">
-        <p>😊Satisfaction: {satisfaction} </p>
-        <p>💰Money: {cost}$ </p>
-        <p>🏭Carbon Footprint: {impact}</p>
+        <p id="boxValue">😊Satisfaction: {satisfaction} </p>
+        <p id="boxValue">💰Money: {cost}$ </p>
+        <p id="boxValue">🏭Carbon Footprint: {impact}</p>
       </div>
       <img
         className="in-game-gotchi-img"
