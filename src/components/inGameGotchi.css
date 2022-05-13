@@ -2,10 +2,22 @@
     position: absolute;
     top: 240px;
     left: 20px;
+    width: 430px;
 }
 
 .in-game-gotchi-img {
-  height: 300px;
+  position: absolute;
+  height: 260px;
+  left: -50px;
+}
+
+.gotchi-values{
+  position: absolute;
+  top:-210px;
+  left:-10px;
+}
+.gotchi-values p{
+  display: inline;
 }
 
 .text-bubble {
