@@ -1,14 +1,18 @@
 import React from "react";
+import {useState} from "react";
 import "./inGameGotchi.css";
 
 export default function InGameGotchi(props) {
   const { gotchiName } = props;
+  const [satisfaction, setSatisfaction] = useState([50]);
+  const [cost, setCost] = useState([1000]);
+  const [footPrint, setFootPrint] = ([10]);
 
   return (
     <div className="in-game-gotchi-container">
-        <p>Satisfaction: 80</p>
-        <p>Money: 566$</p>
-        <p>Carbon FootPrint: 0</p>
+        <p>Satisfaction: {satisfaction}</p>
+        <p>Money: {cost}$</p>
+        <p>Carbon FootPrint: {footPrint}</p>
       <img
         className="in-game-gotchi-img"
         src={
