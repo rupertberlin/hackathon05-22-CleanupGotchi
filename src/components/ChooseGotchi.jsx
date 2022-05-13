@@ -16,12 +16,17 @@ export default function ChooseGotchi(props) {
 
   function clickButton() {
     setCharacter(active);
-    navigate('/');
+    navigate("/");
   }
 
   return (
     <div className="choose-gotchi-container">
-      <h3>choose your Gotchi...</h3>
+      <h3>
+        Martin and his friends want to be spoilt by you. <br></br>
+        <br></br>But be aware, DON'T KILL THE CLIMATE!
+        <br></br>
+        <br></br>Every choice you make will put CO2 into the air!{" "}
+      </h3>
       <div className="container-gotchi-list">
         {gotchiNames.map((name) => {
           return (

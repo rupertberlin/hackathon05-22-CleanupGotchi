@@ -10,6 +10,16 @@
 body {
   text-align: center;
   padding-top: 28px;
+  font-weight: bold;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+/* button {
+  font-weight: bold;
+  color: white;
+} */
+button {
+  font-family: "Courier New", Courier, monospace;
 }
 
 .game-container {

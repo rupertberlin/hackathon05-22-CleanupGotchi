@@ -30,7 +30,7 @@
 
 .gotchi:hover {
   background-color: greenyellow;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .choose-gotchi-btn {
@@ -45,12 +45,12 @@
 }
 
 .choose-gotchi-btn:hover {
-    background: yellow;
-    font-weight: 900;
-    font-size: 1.3rem;
-    cursor:pointer;
+  background: yellow;
+  font-weight: 900;
+  font-size: 1.3rem;
+  cursor: pointer;
 }
 
-.p-w100{
-    width: 100%;
+.p-w100 {
+  width: 100%;
 }

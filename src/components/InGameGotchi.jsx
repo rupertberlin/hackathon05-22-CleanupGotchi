@@ -8,9 +8,7 @@ export default function InGameGotchi({
   impact,
 }) {
   return (
-      
     <div className="in-game-gotchi-container">
-      
       <div className="gotchi-values">
         <p>😊Satisfaction: {satisfaction} </p>
         <p>💰Money: {cost}$ </p>
@@ -36,8 +34,8 @@ export default function InGameGotchi({
           backgroundSize: "cover",
         }}
       >
-        Salut <b>{gotchiName}!</b>, your Gotchi. Don't let me hungry
-        or beeing sad!
+        <br></br>Salut! I am <b>{gotchiName}</b>, your Gotchi.<br></br> Don't
+        leave me hungry or sad!
       </div>
     </div>
   );

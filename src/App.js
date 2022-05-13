@@ -18,15 +18,15 @@ import { flexbox } from "@mui/system";
 const App = () => {
   const [characterName, setCharacterName] = useState("");
   const [allConsumption, setAllConsumption] = React.useState({
-    food: [],
-    clothes: [],
-    transport: [],
-    it: [],
+    food: [0, 0, 0, 0],
+    clothes: [0, 0, 0, 0],
+    transport: [0, 0, 0, 0],
+    it: [0, 0, 0, 0],
     // In this object, all consumption choices will be stored  (incl. the corresponding happiness values / emissions)
     // Each value should have the form of [ITEM NAME, HAPPINESS POINTS, DAILY EMISSIONS, PRICE]
   });
   const [satisfaction, setSatisfaction] = useState(0);
-  const [cost, setCost] = useState(0);
+  const [cost, setCost] = useState(100);
   const [impact, setImpact] = useState(0);
 
   useEffect(() => {
@@ -35,16 +35,16 @@ const App = () => {
       updatedSatisfaction += allConsumption[x][1];
     }
     setSatisfaction(updatedSatisfaction);
-    let updatedCost = 0;
-    for (let x in allConsumption) {
-      updatedCost += allConsumption[x][2];
-    }
-    setCost(updatedCost);
     let updatedImpact = 0;
     for (let x in allConsumption) {
-      updatedImpact += allConsumption[x][3];
+      updatedImpact += allConsumption[x][2];
     }
     setImpact(updatedImpact);
+    let updatedCost = 100;
+    for (let x in allConsumption) {
+      updatedCost += allConsumption[x][3];
+    }
+    setCost(updatedCost);
   });
 
   return (
