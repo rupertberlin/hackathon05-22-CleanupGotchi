@@ -12,8 +12,7 @@ const Clothes = ({ allConsumption, setAllConsumption }) => {
         return (
           <div key={clothes.id}>
             <strong>This clothe :</strong>
-            {clothes.name} <strong>use </strong>
-            {clothes.impact} <strong>CO2 </strong>
+            {clothes.name}&nbsp; 
             <button
               onClick={() => {
                 setAllConsumption(

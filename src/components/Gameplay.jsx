@@ -7,6 +7,8 @@ import "./gameplay.css";
 
 export default function Gameplay(props) {
   const { gotchiName, satisfaction, cost, impact } = props;
+
+
   return (
     <>
       <div className="time-container">

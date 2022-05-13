@@ -1,8 +1,8 @@
 .in-game-gotchi-container {
   position: absolute;
-  top: 240px;
+  top: 200px;
   left: 20px;
-  width: 430px;
+  width: 550px;
 }
 
 .in-game-gotchi-img {
@@ -12,12 +12,19 @@
 }
 
 .gotchi-values {
+  border: 2px solid red;
+  background-color: aliceblue;
   position: absolute;
-  top: -210px;
-  left: -10px;
+  top: -200px;
+  left: -20px;
+  padding-inline: 7px;
+  width:700px;
 }
 .gotchi-values p {
   display: inline;
+}
+#boxValue {
+  color: black;
 }
 
 .text-bubble {
@@ -29,4 +36,5 @@
   top: -140px;
   left: 10px;
   color: black;
+  font-size: 0.8rem;
 }
