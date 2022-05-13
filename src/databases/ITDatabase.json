@@ -3,114 +3,152 @@
   "id": 1,
   "name": "1 web purchase",
   "unite": "kgCO2e\/unit",
-  "impact": 0.00755
+  "impact": 0.00755,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 2,
   "name": "1 email",
   "unite": "kgCO2e\/unit",
-  "impact": 0.004
+  "impact": 0.004,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 3,
   "name": "1 email with attached document",
   "unite": "kgCO2e\/unit",
-  "impact": 0.035
+  "impact": 0.035,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 4,
   "name": "1 web navigation",
   "unite": "kgCO2e\/unit",
-  "impact": 0.00101
+  "impact": 0.00101,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 5,
   "name": "1 web request",
   "unite": "kgCO2e\/unit",
-  "impact": 0.00665
+  "impact": 0.00665,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 6,
   "name": "1 classic software operation",
   "unite": "kgCO2e\/unit",
-  "impact": 0.00135
+  "impact": 0.00135,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 7,
   "name": "1 tweet",
   "unite": "kgCO2e\/unit",
-  "impact": 2E-05
+  "impact": 2E-05,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 8,
   "name": "Printed circuit board",
   "unite": "kgCO2e\/m²",
-  "impact": 433
+  "impact": 433,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 9,
   "name": "Camera",
   "unite": "kgCO2e\/unit",
-  "impact": 22.9
+  "impact": 22.9,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 10,
   "name": "Cardboard",
   "unite": "kgCO2e\/ton",
-  "impact": 50.8
+  "impact": 50.8,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 11,
   "name": "Video console",
   "unite": "kgCO2e\/unit",
-  "impact": 2.54
+  "impact": 2.54,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 12,
   "name": "Screen",
   "unite": "kgCO2e\/unit",
-  "impact": 2.17
+  "impact": 2.17,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 13,
   "name": "Printer",
   "unite": "kgCO2e\/unit",
-  "impact": 6.44
+  "impact": 6.44,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 14,
   "name": "Connected watch",
   "unite": "kgCO2e\/unit",
-  "impact": 9.72
+  "impact": 9.72,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 15,
   "name": "Computer",
   "unite": "kgCO2e\/unit",
-  "impact": 156
+  "impact": 156,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 16,
   "name": "Laptop",
   "unite": "kgCO2e\/device",
-  "impact": 202
+  "impact": 202,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 17,
   "name": "Steam coming from a network",
   "unite": "kgCO2e\/kWh",
-  "impact": 0.141
+  "impact": 0.141,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 18,
   "name": "Digital music players",
   "unite": "kgCO2e\/unit",
-  "impact": 1.98
+  "impact": 1.98,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 19,
   "name": "Smartphone",
   "unite": "kgCO2e\/unit",
-  "impact": 39.1
+  "impact": 39.1,
+  "satisfaction": 10,
+  "cost": 10
  }
 ]
