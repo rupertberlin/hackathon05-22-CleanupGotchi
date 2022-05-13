@@ -25,6 +25,9 @@ const App = () => {
     // In this object, all consumption choices will be stored  (incl. the corresponding happiness values / emissions)
     // Each value should have the form of [ITEM NAME, HAPPINESS POINTS, DAILY EMISSIONS, PRICE]
   });
+  const [satisfaction, setSatisfaction] = useState([0]);
+  const [cost, setCost] = useState([1000]);
+  const [impact, setImpact] = [0];
 
   return (
     <div>
@@ -48,7 +51,12 @@ const App = () => {
                       characterName === "" ? (
                         <Navigate to="/choose-gotchi" />
                       ) : (
-                        <Gameplay gotchiName={characterName} />
+                        <Gameplay
+                          gotchiName={characterName}
+                          satisfaction={satisfaction}
+                          cost={cost}
+                          impact={impact}
+                        />
                       )
                     }
                   />
