@@ -12,8 +12,8 @@ const Food = ({ allConsumption, setAllConsumption }) => {
       {FoodData.map((snackData) => {
         return (
           <div key={snackData.id}>
-            {snackData.Name} --- 1kg <strong>causes </strong> {snackData.Impact}
-            of CO2{" "}
+            <strong>This food :</strong>
+            {snackData.Name}&nbsp;
             <button
               onClick={() => {
                 setAllConsumption(

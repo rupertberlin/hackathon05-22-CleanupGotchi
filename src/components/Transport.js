@@ -14,8 +14,7 @@ const navigate = useNavigate();
         return (
           <div key={move.id}>
             <strong>This move :</strong>
-            {move.name} <strong>use </strong>
-            {move.impact} <strong>CO2 </strong>
+            {move.name}&nbsp;
             <button
               onClick={() => {
                 setAllConsumption(

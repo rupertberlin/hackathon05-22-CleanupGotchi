@@ -16,7 +16,8 @@
   background-color: aliceblue;
   position: absolute;
   top: -245px;
-  left: -10px;
+  left: -20px;
+  padding-inline: 7px;
 }
 .gotchi-values p {
   display: inline;
