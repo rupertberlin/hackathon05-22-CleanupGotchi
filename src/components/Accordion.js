@@ -30,13 +30,21 @@ export default function ControlledAccordions({
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>Food</Typography>
-          <Typography sx={{ color: "text.secondary" }}>
+          <Typography
+            sx={{ fontFamily: "Courier New", width: "33%", flexShrink: 0 }}
+          >
+            Food
+          </Typography>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             What should I eat today?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             <Food
               allConsumption={allConsumption}
               setAllConsumption={setAllConsumption}
@@ -53,13 +61,21 @@ export default function ControlledAccordions({
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>Clothes</Typography>
-          <Typography sx={{ color: "text.secondary" }}>
+          <Typography
+            sx={{ fontFamily: "Courier New", width: "33%", flexShrink: 0 }}
+          >
+            Clothes
+          </Typography>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             What should I wear today?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             <Clothes
               allConsumption={allConsumption}
               setAllConsumption={setAllConsumption}
@@ -76,15 +92,21 @@ export default function ControlledAccordions({
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography
+            sx={{ fontFamily: "Courier New", width: "33%", flexShrink: 0 }}
+          >
             Transport
           </Typography>
-          <Typography sx={{ color: "text.secondary" }}>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             How could I move?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             <Moves
               allConsumption={allConsumption}
               setAllConsumption={setAllConsumption}
@@ -101,13 +123,21 @@ export default function ControlledAccordions({
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>IT stuff</Typography>
-          <Typography sx={{ color: "text.secondary" }}>
+          <Typography
+            sx={{ fontFamily: "Courier New", width: "33%", flexShrink: 0 }}
+          >
+            IT stuff
+          </Typography>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             What can I do?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography
+            sx={{ fontFamily: "Courier New", color: "text.secondary" }}
+          >
             <IT
               allConsumption={allConsumption}
               setAllConsumption={setAllConsumption}
