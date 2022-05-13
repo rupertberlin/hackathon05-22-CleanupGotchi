@@ -25,9 +25,27 @@ const App = () => {
     // In this object, all consumption choices will be stored  (incl. the corresponding happiness values / emissions)
     // Each value should have the form of [ITEM NAME, HAPPINESS POINTS, DAILY EMISSIONS, PRICE]
   });
-  const [satisfaction, setSatisfaction] = useState([0]);
-  const [cost, setCost] = useState([1000]);
-  const [impact, setImpact] = [0];
+  const [satisfaction, setSatisfaction] = useState(0);
+  const [cost, setCost] = useState(0);
+  const [impact, setImpact] = useState(0);
+
+  useEffect(() => {
+    let updatedSatisfaction = 0;
+    for (let x in allConsumption) {
+      updatedSatisfaction += allConsumption[x][1];
+    }
+    setSatisfaction(updatedSatisfaction);
+    let updatedCost = 0;
+    for (let x in allConsumption) {
+      updatedCost += allConsumption[x][2];
+    }
+    setCost(updatedCost);
+    let updatedImpact = 0;
+    for (let x in allConsumption) {
+      updatedImpact += allConsumption[x][3];
+    }
+    setImpact(updatedImpact);
+  });
 
   return (
     <div>
