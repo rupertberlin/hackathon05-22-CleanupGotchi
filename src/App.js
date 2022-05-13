@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import background1 from "./images/pexels-tom-fisk-2739664.jpg";
+import background15 from "./images/pexels-antony-trivet-6053001.jpg";
+import background2 from "./images/pexels-antony-trivet-6057256.jpg";
+import background3 from "./images/pexels-pixabay-60013.jpg";
 import {
   BrowserRouter as Router,
   Routes,
@@ -29,6 +32,9 @@ const App = () => {
   const [cost, setCost] = useState(100);
   const [impact, setImpact] = useState(0);
 
+  // Changing the background image (depending on level of emissions)
+  const [background, setBackground] = useState(background1);
+
   useEffect(() => {
     let updatedSatisfaction = 0;
     for (let x in allConsumption) {
@@ -40,6 +46,15 @@ const App = () => {
       updatedImpact += allConsumption[x][2];
     }
     setImpact(updatedImpact);
+    if (updatedImpact < 25) {
+      setBackground(background1);
+    } else if (25 < updatedImpact && updatedImpact < 50) {
+      setBackground(background15);
+    } else if (50 < updatedImpact && updatedImpact < 100) {
+      setBackground(background2);
+    } else {
+      setBackground(background3);
+    }
     let updatedCost = 100;
     for (let x in allConsumption) {
       updatedCost += allConsumption[x][3];
@@ -100,7 +115,7 @@ const App = () => {
           </div> */}
         </div>
       </div>
-      <img id="backgroundImage" src={background1} alt="Green Rainforest"></img>
+      <img id="backgroundImage" src={background} alt="Green Rainforest"></img>
     </div>
   );
 };
