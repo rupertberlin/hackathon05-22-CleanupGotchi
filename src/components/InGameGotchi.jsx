@@ -8,6 +8,7 @@ export default function InGameGotchi(props) {
     <div className="in-game-gotchi-container">
         <p>Satisfaction: 80</p>
         <p>Money: 566$</p>
+        <p>Carbon FootPrint: 0</p>
       <img
         className="in-game-gotchi-img"
         src={
