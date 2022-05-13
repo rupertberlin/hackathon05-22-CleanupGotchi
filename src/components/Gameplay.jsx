@@ -9,7 +9,6 @@ export default function Gameplay(props) {
   const { gotchiName } = props;
   return (
     <>
-      
       <div className="time-container">
         <Time />
     </div>
