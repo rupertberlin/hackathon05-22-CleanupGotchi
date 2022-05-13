@@ -4,9 +4,8 @@ import {useNavigate} from "react-router-dom";
 
 import ClothesData from "../databases/ClothesDatabase.json";
 
-const Clothes = () => {
+const Clothes = ({ allConsumption, setAllConsumption }) => {
   const navigate = useNavigate();
-  const [allFood, setAllFood] = useState(null);
 
   return (
     <div>
@@ -18,10 +17,10 @@ const Clothes = () => {
             {clothes.impact} <strong>CO2 </strong>
             <button
               onClick={() => {
-                setAllFood(
+                setAllConsumption(
                   // Here, we create a new Object to replace the current one.
                   //Create an empty {}, merge the current object into it, then merge an Object that includes the key/value we want to change.
-                  Object.assign({}, setAllFood, {
+                  Object.assign({}, setAllConsumption, {
                     clothes: [clothes.name, 5, clothes.impact, -30],
                   })
                 );

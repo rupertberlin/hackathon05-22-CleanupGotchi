@@ -9,7 +9,10 @@ import Clothes from "./Clothes";
 import IT from "./IT";
 import Moves from "./Transport";
 
-export default function ControlledAccordions() {
+export default function ControlledAccordions({
+  allConsumption,
+  setAllConsumption,
+}) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
@@ -34,7 +37,10 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Food />
+            <Food
+              allConsumption={allConsumption}
+              setAllConsumption={setAllConsumption}
+            />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -54,7 +60,10 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Clothes />
+            <Clothes
+              allConsumption={allConsumption}
+              setAllConsumption={setAllConsumption}
+            />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -76,7 +85,10 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Moves />
+            <Moves
+              allConsumption={allConsumption}
+              setAllConsumption={setAllConsumption}
+            />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -96,7 +108,10 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <IT />
+            <IT
+              allConsumption={allConsumption}
+              setAllConsumption={setAllConsumption}
+            />
           </Typography>
         </AccordionDetails>
       </Accordion>

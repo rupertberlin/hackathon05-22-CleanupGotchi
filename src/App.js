@@ -56,7 +56,15 @@ const App = () => {
                     path="/choose-gotchi"
                     element={<ChooseGotchi setCharacter={setCharacterName} />}
                   />
-                  <Route path="/care" element={<ControlledAccordions />} />
+                  <Route
+                    path="/care"
+                    element={
+                      <ControlledAccordions
+                        allConsumption={allConsumption}
+                        setAllConsumption={setAllConsumption}
+                      />
+                    }
+                  />
                 </Routes>
               </Router>
             </div>

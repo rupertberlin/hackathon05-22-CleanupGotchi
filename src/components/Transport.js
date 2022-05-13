@@ -1,16 +1,12 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {useNavigate} from "react-router-dom";
 import TransportData from "../databases/TransportDatabase.json";
 
-const Moves = () => {
+const Moves = ({ allConsumption, setAllConsumption }) => {
 
 const navigate = useNavigate();
-const [move, setMove] = useState([]);
 
-function clicked() {
-  setMove = []
-}
 
   return (
     <div>
@@ -20,7 +16,20 @@ function clicked() {
             <strong>This move :</strong>
             {move.name} <strong>use </strong>
             {move.impact} <strong>CO2 </strong>
-            <button onClick={() => navigate('/')}>Select this move</button>
+            <button
+              onClick={() => {
+                setAllConsumption(
+                  // Here, we create a new Object to replace the current one.
+                  //Create an empty {}, merge the current object into it, then merge an Object that includes the key/value we want to change.
+                  Object.assign({}, setAllConsumption, {
+                    move: [move.name, 5, move.impact, -30],
+                  })
+                );
+                navigate('/');
+              }}
+            >
+              Select this move
+            </button>
           </div>
         );
       })}

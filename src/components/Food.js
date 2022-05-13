@@ -1,12 +1,11 @@
-import React, {useState} from "react";
-import {useNavigate} from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import FoodData from "../databases/Food.json";
 
 // IMPORT allConsumption, setAllConsumption
 
-const Food = () => {
+const Food = ({ allConsumption, setAllConsumption }) => {
   const navigate = useNavigate();
-const [allConsumption, setAllConsumption] = useState(null)
 
   return (
     <div>
@@ -24,7 +23,7 @@ const [allConsumption, setAllConsumption] = useState(null)
                     food: [snackData.Name, 5, snackData.Impact, -5],
                   })
                 );
-                navigate('/');
+                navigate("/");
               }}
             >
               Select this food
