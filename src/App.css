@@ -57,6 +57,8 @@ header {
   height: 10vh;
   text-align: center;
   font-size: 7vh;
+  color: white;
+  font-weight: bolder;
 }
 #allBelowHeaderContainer {
   display: flex;
@@ -85,4 +87,12 @@ header {
 #containerForColumnWithTotalEmissions {
   width: 15vw;
   border-width: 2px;
+}
+#backgroundImage {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  z-index: -1;
 }

@@ -3,126 +3,168 @@
   "id": 1,
   "name": "Bus",
   "unite": "kgCO2e\/km",
-  "impact": 1.6600000000000001
+  "impact": 1.6600000000000001,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 2,
   "name": "Plane (passengers)",
   "unite": "kgCO2e\/passenger.km",
-  "impact": 1.2
+  "impact": 1.2,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 3,
   "name": "Cargo aircraft",
   "unite": "kgCO2e\/t.km",
-  "impact": 10.9
+  "impact": 10.9,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 4,
   "name": "Passengers aircraft",
   "unite": "kgCO2e\/t.km",
-  "impact": 7.19
+  "impact": 7.19,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 5,
   "name": "Self-propelled barge",
   "unite": "kgCO2e\/vehicle.km",
-  "impact": 7.97
+  "impact": 7.97,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 6,
   "name": "Pushboat",
   "unite": "kgCO2e\/t.km",
-  "impact": 0.0091
+  "impact": 0.0091,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 7,
   "name": "Pusher boat",
   "unite": "kgCO2e\/vehicle.km",
-  "impact": 9.43
+  "impact": 9.43,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 8,
   "name": "Cargo ship",
   "unite": "kgCO2e\/ton.km",
-  "impact": 1.5899999999999999
+  "impact": 1.5899999999999999,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 9,
   "name": "Shoes",
   "unite": "kgCO2e\/unit",
-  "impact": 0.4
+  "impact": 0.4,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 10,
   "name": "Tractor trailer",
   "unite": "kgCO2e\/km",
-  "impact": 1.02
+  "impact": 1.02,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 11,
   "name": "Day ferry",
   "unite": "kgCO2e\/vehicle.km",
-  "impact": 496
+  "impact": 496,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 12,
   "name": "Van",
   "unite": "kgCO2e\/m3.km",
-  "impact": 1.31
+  "impact": 1.31,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 13,
   "name": "Subway",
   "unite": "kgCO2e\/passager.km",
-  "impact": 0.0026
+  "impact": 0.0026,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 14,
   "name": "Inter-island shuttle",
   "unite": "kgCO2e\/passager.km",
-  "impact": 0.198
+  "impact": 0.198,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 15,
   "name": "Pirogue",
   "unite": "kgCO2e\/t.km",
-  "impact": 0.473
+  "impact": 0.473,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 16,
   "name": "Dugout",
   "unite": "kgCO2e\/ton.km",
-  "impact": 0.473
+  "impact": 0.473,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 17,
   "name": "TGV, high-speed train (French)",
   "unite": "kgCO2e\/km",
-  "impact": 0.636
+  "impact": 0.636,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 18,
   "name": "Scooter",
   "unite": "kgCO2e\/unit",
-  "impact": 70.7
+  "impact": 70.7,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 19,
   "name": "Bike",
   "unite": "kgCO2e\/unit",
-  "impact": 2.99
+  "impact": 2.99,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 20,
   "name": "Motorcycle",
   "unite": "kgCO2e\/km",
-  "impact": 0.0763
+  "impact": 0.0763,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 21,
   "name": "Snowboard",
   "unite": "kgCO2e\/device",
-  "impact": 8.6
+  "impact": 8.6,
+  "satisfaction": 10,
+  "cost": 10
  }
 ]

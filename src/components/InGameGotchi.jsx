@@ -1,13 +1,22 @@
 import React from "react";
 import "./inGameGotchi.css";
 
-export default function InGameGotchi(props) {
-  const { gotchiName } = props;
-
+export default function InGameGotchi({
+  gotchiName,
+  satisfaction,
+  cost,
+  impact,
+}) {
   return (
       
     <div className="in-game-gotchi-container">
+<<<<<<< HEAD
       
+=======
+      <p>Satisfaction: {satisfaction}</p>
+      <p>Money: {cost}$</p>
+      <p>Carbon Footprint: {impact}</p>
+>>>>>>> 9029ba1dfe16c2081f964a3efad8b986b81cbb93
       <img
         className="in-game-gotchi-img"
         src={

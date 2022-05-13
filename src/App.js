@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import background1 from "./images/pexels-tom-fisk-2739664.jpg";
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,16 +18,20 @@ import { flexbox } from "@mui/system";
 const App = () => {
   const [characterName, setCharacterName] = useState("");
   const [allConsumption, setAllConsumption] = React.useState({
-    // In this object, all choices we make will be stored  (incl. the corresponding happiness values / emissions)
-    // Each value should have the form of [ITEM NAME, HAPPINESS POINTS, DAILY EMISSIONS]
-    breakfast: [],
-    lunch: [],
-    dinner: [],
+    food: [],
+    clothes: [],
+    transport: [],
+    it: [],
+    // In this object, all consumption choices will be stored  (incl. the corresponding happiness values / emissions)
+    // Each value should have the form of [ITEM NAME, HAPPINESS POINTS, DAILY EMISSIONS, PRICE]
   });
+  const [satisfaction, setSatisfaction] = useState([0]);
+  const [cost, setCost] = useState([1000]);
+  const [impact, setImpact] = [0];
 
   return (
     <div>
-      <header>Get green, Gotchi!</header>
+      <header>Get green, Gotchi! </header>
       <div></div>
       <div id="allBelowHeaderContainer">
         {/* <div className="accordion">
@@ -46,7 +51,12 @@ const App = () => {
                       characterName === "" ? (
                         <Navigate to="/choose-gotchi" />
                       ) : (
-                        <Gameplay gotchiName={characterName} />
+                        <Gameplay
+                          gotchiName={characterName}
+                          satisfaction={satisfaction}
+                          cost={cost}
+                          impact={impact}
+                        />
                       )
                     }
                   />
@@ -54,7 +64,15 @@ const App = () => {
                     path="/choose-gotchi"
                     element={<ChooseGotchi setCharacter={setCharacterName} />}
                   />
-                  <Route path="/care" element={<ControlledAccordions />} />
+                  <Route
+                    path="/care"
+                    element={
+                      <ControlledAccordions
+                        allConsumption={allConsumption}
+                        setAllConsumption={setAllConsumption}
+                      />
+                    }
+                  />
                 </Routes>
               </Router>
             </div>
@@ -64,6 +82,7 @@ const App = () => {
           </div> */}
         </div>
       </div>
+      <img id="backgroundImage" src={background1} alt="Green Rainforest"></img>
     </div>
   );
 };

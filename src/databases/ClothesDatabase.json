@@ -3,72 +3,96 @@
   "id": 1,
   "name": "wardrobe",
   "unite": "kgCO2e\/unit",
-  "impact": 118
+  "impact": 118,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 2,
   "name": "Shirt",
   "unite": "kgCO2e\/unit",
-  "impact": 2.4
+  "impact": 2.4,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 3,
   "name": "Riding hat",
   "unite": "kgCO2e\/device",
-  "impact": 2.6
+  "impact": 2.6,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 4,
   "name": "Fencing sword",
   "unite": "kgCO2e\/device",
-  "impact": 2.2
+  "impact": 2.2,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 5,
   "name": "Jeans",
   "unite": "kgCO2e\/unit",
-  "impact": 23.2
+  "impact": 23.2,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 6,
   "name": "Judo, kimono",
   "unite": "kgCO2e\/device",
-  "impact": 16
+  "impact": 16,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 7,
   "name": "Sweater",
   "unite": "kgCO2e\/unit",
-  "impact": 25.5
+  "impact": 25.5,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 8,
   "name": "Dress",
   "unite": "kgCO2e\/unit",
-  "impact": 14.1
+  "impact": 14.1,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 9,
   "name": "Backpack",
   "unite": "kgCO2e\/unit",
-  "impact": 9.19
+  "impact": 9.19,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 10,
   "name": "Sweat",
   "unite": "kgCO2e\/unit",
-  "impact": 11.8
+  "impact": 11.8,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 11,
   "name": "T-shirt",
   "unite": "kgCO2e\/unit",
-  "impact": 5.2
+  "impact": 5.2,
+  "satisfaction": 10,
+  "cost": 10
  },
  {
   "id": 12,
   "name": "Jacket",
   "unite": "kgCO2e\/unit",
-  "impact": 24
+  "impact": 24,
+  "satisfaction": 10,
+  "cost": 10
  }
 ]
