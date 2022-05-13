@@ -17,7 +17,7 @@ const IT = ({ allConsumption, setAllConsumption }) => {
                 setAllConsumption(
                   // Here, we create a new Object to replace the current one.
                   //Create an empty {}, merge the current object into it, then merge an Object that includes the key/value we want to change.
-                  Object.assign({}, setAllConsumption, {
+                  Object.assign({}, allConsumption, {
                     electronic: [electronic.name, 5, electronic.impact, -30],
                   })
                 );

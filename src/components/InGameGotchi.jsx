@@ -8,10 +8,14 @@ export default function InGameGotchi({
   impact,
 }) {
   return (
+      
     <div className="in-game-gotchi-container">
-      <p>Satisfaction: {satisfaction}</p>
-      <p>Money: {cost}$</p>
-      <p>Carbon Footprint: {impact}</p>
+      
+      <div className="gotchi-values">
+        <p>😊Satisfaction: {satisfaction} </p>
+        <p>💰Money: {cost}$ </p>
+        <p>🏭Carbon Footprint: {impact}</p>
+      </div>
       <img
         className="in-game-gotchi-img"
         src={
@@ -22,6 +26,19 @@ export default function InGameGotchi({
         }
         alt="Your Gotchi"
       />
+      <div
+        className="text-bubble"
+        style={{
+          backgroundImage: `url(${
+            process.env.PUBLIC_URL + "/images/text-bubble.png"
+          })`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        Salut <b>{gotchiName}!</b>, your Gotchi. Don't let me hungry
+        or beeing sad!
+      </div>
     </div>
   );
 }

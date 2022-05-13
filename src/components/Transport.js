@@ -21,7 +21,7 @@ const navigate = useNavigate();
                 setAllConsumption(
                   // Here, we create a new Object to replace the current one.
                   //Create an empty {}, merge the current object into it, then merge an Object that includes the key/value we want to change.
-                  Object.assign({}, setAllConsumption, {
+                  Object.assign({}, allConsumption, {
                     move: [move.name, 5, move.impact, -30],
                   })
                 );
